@@ -1,0 +1,79 @@
+<element>
+	<web-app>
+			
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>	
+		
+		<servlet>
+			<servlet-name>FirstServlet</servlet-name>
+			<servlet-class>com.bridgeLabz.loginAndSignUpByServlet.FirstServlet</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>FirstServlet</servlet-name>
+			<url-pattern>/FirstServlet</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>SignUp</servlet-name>
+			<servlet-class>com.bridgeLabz.loginAndSignUpByServlet.SignUp</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>SignUp</servlet-name>
+			<url-pattern>/SignUp</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>LogOut</servlet-name>
+			<servlet-class>com.bridgeLabz.loginAndSignUpByServlet.LogOut</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>LogOut</servlet-name>
+			<url-pattern>/LogOut</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>ForgotPassowrd</servlet-name>
+			<servlet-class>com.bridgeLabz.loginAndSignUpByServlet.ForgotPassowrd</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>ForgotPassowrd</servlet-name>
+			<url-pattern>/ForgotPassowrd</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>ServletMailer</servlet-name>
+			<servlet-class>com.bridgeLabz.loginAndSignUpByServlet.ServletMailer</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>ServletMailer</servlet-name>
+			<url-pattern>/ServletMailer</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>DeleteUser</servlet-name>
+			<servlet-class>com.bridgeLabz.loginAndSignUpByServlet.DeleteUser</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>DeleteUser</servlet-name>
+			<url-pattern>/DeleteUser</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+			<servlet-name>UpdtaeUser</servlet-name>
+			<servlet-class>com.bridgeLabz.loginAndSignUpByServlet.UpdtaeUser</servlet-class>
+		</servlet>
+		
+		<servlet-mapping>
+			<servlet-name>UpdtaeUser</servlet-name>
+			<url-pattern>/UpdtaeUser</url-pattern>
+		</servlet-mapping>
+		
+	</web-app>
+</element>
