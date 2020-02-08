@@ -7,7 +7,7 @@ import java.sql.DriverManager;
 public class MySQLConnection {
 	
 	static String uname = "root";
-	static String upass = "root";
+	static String upass = "16116";
 	static String url = "jdbc:mysql:///registration?useSSL=false";
 
 	static Connection con = null;

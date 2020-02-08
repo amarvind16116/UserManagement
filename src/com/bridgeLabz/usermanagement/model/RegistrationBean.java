@@ -8,15 +8,15 @@ import javax.servlet.http.HttpServletRequest;
 
 public class RegistrationBean {
 	
-	private static String email;
-	private static String pwd;
-	private static String repwd;
-	private static String mob;
-	private static String fname;
-	private static String lname;
-	private static String gender;
-	private static String date;
-	private static String age;
+	private String email;
+	private String pwd;
+	private String repwd;
+	private String mob;
+	private String fname;
+	private String lname;
+	private String gender;
+	private String date;
+	private String age;
 	
 	
 	public RegistrationBean(HttpServletRequest request) {
@@ -32,34 +32,34 @@ public class RegistrationBean {
 	}
 	
 	
-	public static String getEmail() {
+	public String getEmail() {
 		return email;
 	}
-	public static String getPwd() {
+	public String getPwd() {
 		return pwd;
 	}
-	public static String getRepwd() {
+	public String getRepwd() {
 		return repwd;
 	}
-	public static String getMob() {
+	public String getMob() {
 		return mob;
 	}
-	public static String getFname() {
+	public String getFname() {
 		return fname;
 	}
-	public static String getLname() {
+	public String getLname() {
 		return lname;
 	}
-	public static String getGender() {
+	public String getGender() {
 		return gender;
 	}
-	public static String getDate() {
+	public String getDate() {
 		java.util.Date dateTime = Calendar.getInstance().getTime();
 		DateFormat df = new SimpleDateFormat("yyyy:MM:dd hh:mm:ss");
 		date = df.format(dateTime);
 		return date;
 	}
-	public static String getAge() {
+	public String getAge() {
 		return age;
 	}
 	
